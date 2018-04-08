@@ -8,8 +8,4 @@ How to run tests from this project:
 3. Make sure that following command line commands `mvn -version` and `java -version` give you information on 
 mvn and java installed in your OS. Otherwise go back to #1 and #2 and google for proper installation guides.
 4. Clone repository with source code via Git
-5. In command line to `cd` to project root folder
-6. To run test from command line use following command:  
-`mvn clean install -DsuiteName=single_test_example.xml`  
-where single_test_example.xml is a name of specific TestNG xml 
-file with tests. 
+5. Use xml files to run each test separately
